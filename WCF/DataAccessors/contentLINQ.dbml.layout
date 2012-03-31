@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="contentLINQ">
+  <DataContextMoniker Name="/contentLINQDataContext" />
+  <nestedChildShapes>
+    <classShape Id="48ca8b7b-ea3c-4e9c-91e2-ee8ae7c4de9f" absoluteBounds="3.5, 0.875, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/contentLINQDataContext/Comment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="264d9cb4-7168-4e3b-b25c-e48930f2997f" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1adabdde-0d0f-480f-84aa-7a33d828a074" absoluteBounds="0.75, 0.875, 2, 1.9631982421875">
+      <DataClassMoniker Name="/contentLINQDataContext/Article" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1084d30e-2fd0-48b9-9a5a-aabdc0a30179" absoluteBounds="0.765, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.76044840494792); (3.5 : 1.76044840494792)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/contentLINQDataContext/Article/Article_Comment" />
+      <nodes>
+        <classShapeMoniker Id="1adabdde-0d0f-480f-84aa-7a33d828a074" />
+        <classShapeMoniker Id="48ca8b7b-ea3c-4e9c-91e2-ee8ae7c4de9f" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

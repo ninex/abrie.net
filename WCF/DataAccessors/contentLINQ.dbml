@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="content" Class="contentLINQDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=localhost\sql2008;Initial Catalog=Content;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="ContentConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Comment" Member="Comments">
+    <Type Name="Comment">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Submitter" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="Text" Type="System.String" DbType="VarChar(400)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ArticleId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Article_Comment" Member="Article" ThisKey="ArticleId" OtherKey="Id" Type="Article" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Article" Member="Articles">
+    <Type Name="Article">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Title" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ArticleContent" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Created" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DemoLink" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="Summary" Type="System.String" DbType="varchar(250)" CanBeNull="true" />
+      <Association Name="Article_Comment" Member="Comments" ThisKey="Id" OtherKey="ArticleId" Type="Comment" />
+    </Type>
+  </Table>
+</Database>

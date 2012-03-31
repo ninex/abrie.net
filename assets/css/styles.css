@@ -1,0 +1,208 @@
+﻿article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+body
+{
+	font-family: Verdana;
+	font-size: small;
+}
+h1
+{
+	padding-top: 5px;
+	font-size: large;
+	margin-left: 15px;
+}
+h2
+{
+	font-weight: bold;
+}
+input[type=button]
+{
+   font-weight:bold;
+   color:#fff;
+   background-color:#000;
+   border:1px solid #000;
+   cursor:pointer;
+   padding: 4px 8px 5px 8px;
+   border-radius: 5px;
+   box-shadow: 3px 3px #ccc;
+}
+input[type=button]:hover
+{
+   font-weight:bold;
+   color:#000;
+   background-color:#fff;
+   border:1px solid #aaa;
+   padding: 4px 8px 5px 8px;
+   border-radius: 5px;
+   box-shadow: 3px 3px #222;
+}
+nav ul
+{
+	padding-left: 40px;
+	height: 40px;
+	line-height: 40px;
+	list-style-type: none;
+	background-color: #000;
+}
+nav ul li
+{
+	height: 40px;
+	line-height: 40px;
+	width: auto;
+	float: left;
+}
+nav ul li a
+{
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	padding: 0px 10px 0px 10px;
+	border-radius: 5px;
+}
+nav ul li a:hover
+{
+	background-color: #fff;
+	color: #000;
+}
+nav .active
+{
+	background-color: #fff;
+	color: #000;
+	cursor: pointer;
+}
+.table
+{
+	display: table;
+}
+.row
+{
+	display: table-row;
+}
+.cell
+{
+	display: table-cell;
+	padding: 5px;
+}
+.portfolio
+{
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 5px;
+	box-shadow: 3px 5px #aaa;
+	margin: 15px;
+}
+.subportfolio
+{
+	margin-bottom: 10px;
+	width: 100%;
+}
+.subportfolio .cell:first-child
+{
+	width: 30%;
+	font-style: italic;
+}
+.section
+{
+	border: 1px solid #000;
+	border-radius: 5px;
+	box-shadow: 3px 5px #aaa;
+	margin: 15px;
+	padding: 5px;
+	overflow:hidden;
+}
+.section a, .section a:visited
+{
+	font-weight: bold;
+	color: #000;
+	font-style: italic;
+	text-decoration: none;
+}
+.section a:hover
+{
+	font-weight: bold;
+	color: #fff;
+	background-color: #222;
+	font-style: italic;
+}
+.me
+{
+	width: 200px;
+	float:right;
+}
+.social
+{
+	float: right;
+	margin-right: 15px;
+}
+.social a, .social a:visited
+{
+	font-weight: bold;
+	color: #000;
+	font-style: italic;
+	text-decoration: none;
+}
+.social a:hover
+{
+	font-weight: bold;
+	color: #fff;
+	background-color: #222;
+	font-style: italic;
+}
+.articleSummary
+{
+	cursor: pointer;
+}
+.loader
+{
+	margin: 15px;
+}
+.codeNav
+{
+	margin: 5px 0px 5px 15px;
+	background-repeat: no-repeat;
+}
+/* fix styles for syntax highlighting */
+.syntaxhighlighter .string, .syntaxhighlighter .string a
+{
+	background-color:#fff;
+}
+.comment
+{
+	margin: 15px auto;
+	width: 40%;
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-radius: 5px;
+}
+.newComment
+{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 15px auto;
+	width: 30%;
+	padding: 5px;
+}
+.newComment input[type=button]
+{
+	margin-left: 5px;
+}
+.newComment .label
+{
+	margin:5px;
+}
+.newComment textarea
+{
+	width: 95%;
+	overflow: hidden;
+	margin-top:5px;
+}
+.newComment .label input
+{
+	width: 95%;
+}
+.invalid
+{
+	background-color: #FFFD99;
+}

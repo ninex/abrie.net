@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="abrie.master.cs" Inherits="abrie.netWeb.abrie" %>
+
+<!DOCTYPE html >
+<html class="no-js">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="google-site-verification" content="fWzGqrKqbVx6IfsvCQmkqXcz890dIHHAbA5Cjk8Jv4c" />
+    <meta name="keywords" content="abrie, sandbox, development" />
+    <meta name="description" content="This is Abrie Greeff's sandbox for development ideas." />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" />	
+    <link rel="stylesheet" type="text/css" href="/assets/css/reset-min.css"/>    
+    <link href="/assets/css/styles.css" rel="stylesheet" type="text/css" />
+    <link rel="alternate" type="application/rss+xml" title="abrie.net code sandbox" href="http://abrie.net/WCF/DataService.svc/feed" />
+    <script src="/assets/js/modernizr-latest.js" type="text/javascript"></script>
+    <script src="/assets/js/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <script src="/assets/js/master.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a id="nav_default" href="/default.aspx">home</a></li>
+            <li><a id="nav_code" href="/code.aspx">code</a></li>
+            <li><a id="nav_portfolio" href="/portfolio.aspx">portfolio</a></li>
+        </ul>
+    </nav>
+    <div>
+        <asp:ContentPlaceHolder ID="body" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <script>
+        $(document).ready(function () {
+            setActiveNavigation();
+        });
+    </script>
+    <%--<script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-11171869-2");
+            pageTracker._trackPageview();
+        } catch (err) { }</script>--%>
+</body>
+</html>

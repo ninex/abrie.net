@@ -1,0 +1,13 @@
+﻿<div class="section">
+<div style="float:right;margin-right:15px;" >
+    <input type="button" value="Edit" onclick="editArticle('${Id}');" />
+    <input type="button" value="Remove" onclick="removeArticle('${Id}');" /></div>
+<h2>
+    ${Title}</h2>{{html Summary}}
+<hr />
+{{html ArticleContent}}
+<br />
+<p>
+    The demo can be viewed <a href="{{html DemoLink}}">here.</a></p>
+<br />
+</div>
