@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
+using Microsoft.Web.Optimization;
 
 namespace abrie.netWeb
 {
@@ -12,6 +13,31 @@ namespace abrie.netWeb
 
         protected void Application_Start(object sender, EventArgs e)
         {
+            BundleTable.Bundles.EnableDefaultBundles();
+            
+            var b = new Bundle("~/jss", typeof(JsMinify));
+            b.AddFile("~/assets/js/modernizr-latest.js");
+            b.AddFile("~/assets/js/jquery-1.6.4.min.js");
+            b.AddFile("~/assets/js/master.js");
+            BundleTable.Bundles.Add(b);
+
+            new Bundle("~/codejss", typeof(JsMinify));
+            b.AddFile("~/assets/js/shCore.js");
+            b.AddFile("~/assets/js/shBrushJScript.js");
+            b.AddFile("~/assets/js/shBrushXml.js");
+            b.AddFile("~/assets/js/jquery.tmpl.min.js");
+            b.AddFile("~/assets/js/code.js");
+            BundleTable.Bundles.Add(b);           
+
+            var s = new Bundle("~/css", typeof(CssMinify));
+            s.AddFile("~/assets/css/reset-min.css");
+            s.AddFile("~/assets/css/styles.css");
+            BundleTable.Bundles.Add(s);
+
+            s = new Bundle("~/codecss", typeof(CssMinify));
+            s.AddFile("~/assets/css/shCore.css");
+            s.AddFile("~/assets/css/shThemeDefault.css");
+            BundleTable.Bundles.Add(s);
 
         }
 
