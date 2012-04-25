@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/abrie.Master" AutoEventWireup="true"
-    CodeBehind="code.aspx.cs" Inherits="abrie.netWeb.code" %>
+    CodeBehind="code.aspx.cs" Inherits="abrie.netWeb.code" ClientIDMode="Static"%>
 
 <asp:Content ID="headContent" ContentPlaceHolderID="head" runat="server">
     <title>abrie.net - code</title>
@@ -14,7 +14,7 @@
         <a href="#" onclick="toggleArticle('#');">
             <img alt="back" src="/assets/img/back.png" /></a>
     </div>
-    <div id="articles">
+    <div id="articles" runat="server">
     </div>
     <div id="comments">
     </div>

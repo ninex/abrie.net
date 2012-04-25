@@ -44,6 +44,9 @@ function loadArticles() {
     });
 }
 function loadArticle(id) {
+    if (id.charAt(0) == '!') {
+        id = id.slice(1);
+    }
     $('#articles').empty();
     $('#articles').append('<img alt="loading" src="/assets/img/loader.gif" loop="infinite" class="loader" />');
     $.ajax({
@@ -75,6 +78,9 @@ function toggleArticle(id) {
     }
 }
 function loadComments(id) {
+    if (id.charAt(0) == '!') {
+        id = id.slice(1);
+    }
     $('#comments').hide();
     $('#newComment').hide();
     $.get('/WCF/DataService.svc/comments/' + id, function (json) {
@@ -92,8 +98,8 @@ function loadComments(id) {
             value.innerHTML = time +' ' + year + "/" + month + "/" + day;
         });
     });
-    $('#comments').fadeIn(3000);
-    $('#newComment').fadeIn(3000);
+    $('#comments').fadeIn(300);
+    $('#newComment').fadeIn(300);
 }
 function postComment() {
     var validationFailed = false;
@@ -115,6 +121,9 @@ function postComment() {
     }
 
     var id = window.location.hash.slice(1);
+    if (id.charAt(0) == '!') {
+        id = id.slice(1);
+    }
 
     if (id != null || '') {
         var data = {

@@ -61,9 +61,6 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="WebActivator">
-      <HintPath>packages\WebActivator.1.5\lib\net40\WebActivator.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\reset-min.css" />
@@ -101,6 +98,7 @@
     <Content Include="default.aspx" />
     <Content Include="assets\img\favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="packages.config" />
     <Content Include="portfolio.aspx" />
     <Content Include="robots.txt" />
     <Content Include="sandbox\articles.aspx" />
@@ -195,7 +193,6 @@
     <Content Include="abrie.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
     <None Include="WCF\DataAccessors\contentLINQ.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>contentLINQ.designer.cs</LastGenOutput>

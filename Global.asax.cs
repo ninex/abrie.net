@@ -10,12 +10,23 @@ namespace abrie.netWeb
 {
     public class Global : System.Web.HttpApplication
     {
+        public class PlainJsBundler : IBundleTransform
+        {
+            public virtual void Process(BundleResponse bundle)
+            {
+                bundle.ContentType = "text/javascript";
+            }
+        }
 
         protected void Application_Start(object sender, EventArgs e)
         {
             BundleTable.Bundles.EnableDefaultBundles();
-            
+#if DEBUG
+            var b = new Bundle("~/jss", typeof(PlainJsBundler));
+#else
             var b = new Bundle("~/jss", typeof(JsMinify));
+#endif
+
             b.AddFile("~/assets/js/modernizr-latest.js");
             b.AddFile("~/assets/js/jquery-1.6.4.min.js");
             b.AddFile("~/assets/js/master.js");

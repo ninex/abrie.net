@@ -1,59 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <publishData>
   <publishProfile publishUrl="C:\Code\abrie.net\published" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="ProdProfile" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
-    <file relUrl="assets/js/jquery.beautyOfCode-min.js" publishTime="11/02/2011 18:14:26" />
-    <file relUrl="assets/views/comment.html" publishTime="11/14/2011 18:52:09" />
-    <file relUrl="bin/abrie.netWeb.dll" publishTime="03/31/2012 16:33:31" />
-    <file relUrl="assets/img/ek.jpg" publishTime="11/02/2011 18:14:24" />
-    <file relUrl="Global.asax" publishTime="11/02/2011 18:14:21" />
-    <file relUrl="assets/views/tweet.html" publishTime="11/02/2011 18:14:27" />
-    <file relUrl="abrie.Master" publishTime="03/31/2012 16:22:32" />
-    <file relUrl="assets/img/nwd9.jpg" publishTime="02/28/2012 21:47:20" />
-    <file relUrl="sandbox/articles.aspx" publishTime="11/10/2011 22:14:59" />
-    <file relUrl="assets/img/nej72.jpg" publishTime="02/28/2012 21:47:20" />
-    <file relUrl="bin/Microsoft.Web.Optimization.dll" publishTime="03/31/2012 10:56:03" />
-    <file relUrl="bin/WebActivator.dll" publishTime="03/31/2012 10:56:49" />
-    <file relUrl="assets/js/code.js" publishTime="11/14/2011 18:52:09" />
-    <file relUrl="code.aspx" publishTime="03/31/2012 16:31:24" />
-    <file relUrl="assets/js/modernizr-latest.js" publishTime="11/10/2011 17:04:30" />
-    <file relUrl="assets/img/loader.gif" publishTime="11/10/2011 17:04:28" />
-    <file relUrl="assets/views/articleAdmin.html" publishTime="11/14/2011 18:52:09" />
-    <file relUrl="sandbox/linda.html" publishTime="02/28/2012 21:47:08" />
-    <file relUrl="packages.config" publishTime="03/31/2012 10:56:53" />
-    <file relUrl="assets/js/shBrushXml.js" publishTime="11/10/2011 17:04:30" />
-    <file relUrl="assets/css/styles.css" publishTime="11/14/2011 18:52:09" />
-    <file relUrl="assets/img/arrows.png" publishTime="02/28/2012 21:47:20" />
-    <file relUrl="assets/img/p4pb7311631.jpg" publishTime="02/28/2012 21:47:20" />
-    <file relUrl="portfolio.aspx" publishTime="11/03/2011 18:55:59" />
-    <file relUrl="assets/js/jquery.tmpl.min.js" publishTime="11/10/2011 17:04:30" />
-    <file relUrl="assets/views/article.html" publishTime="11/14/2011 18:52:09" />
-    <file relUrl="assets/js/default.js" publishTime="11/02/2011 18:14:26" />
-    <file relUrl="default.aspx" publishTime="11/10/2011 17:04:28" />
-    <file relUrl="assets/css/shThemeDefault.css" publishTime="11/10/2011 17:04:28" />
-    <file relUrl="assets/js/tweeter.js" publishTime="11/10/2011 17:04:30" />
-    <file relUrl="assets/img/favicon.ico" publishTime="11/03/2011 18:56:00" />
-    <file relUrl="assets/css/reset-min.css" publishTime="11/10/2011 17:04:28" />
-    <file relUrl="Web.config" publishTime="03/31/2012 16:34:38" />
-    <file relUrl="bin/abrie.netWeb.pdb" publishTime="03/31/2012 16:33:31" />
-    <file relUrl="assets/js/linda.js" publishTime="02/28/2012 21:47:21" />
-    <file relUrl="assets/js/master.js" publishTime="11/02/2011 18:14:26" />
-    <file relUrl="assets/css/shCore.css" publishTime="11/10/2011 17:04:28" />
-    <file relUrl="assets/img/back.png" publishTime="11/14/2011 18:52:09" />
-    <file relUrl="WCF/DataService.svc" publishTime="11/02/2011 18:14:19" />
-    <file relUrl="assets/js/shBrushJScript.js" publishTime="11/10/2011 17:04:30" />
-    <file relUrl="robots.txt" publishTime="11/02/2011 18:14:21" />
-    <file relUrl="bin/Microsoft.Web.Infrastructure.dll" publishTime="03/31/2012 10:56:48" />
-    <file relUrl="sandbox/test.aspx" publishTime="11/10/2011 17:04:27" />
-    <file relUrl="assets/views/articleSummary.html" publishTime="11/14/2011 18:52:09" />
-    <file relUrl="assets/errors/notfound.aspx" publishTime="11/03/2011 18:55:59" />
-    <file relUrl="assets/js/jquery-1.6.4.min.js" publishTime="11/02/2011 18:14:26" />
-    <file relUrl="assets/js/shCore.js" publishTime="11/10/2011 17:04:30" />
-    <file relUrl="sandbox/tweeter.aspx" publishTime="11/10/2011 17:04:27" />
-    <file relUrl="assets/img/k35mP.gif" publishTime="02/28/2012 21:47:20" />
-    <file relUrl="assets/img/p5pb7569968.jpg" publishTime="02/28/2012 21:47:20" />
+    <file relUrl="assets/js/jquery.beautyOfCode-min.js" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/views/comment.html" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="sandbox/test.aspx" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/js/shBrushXml.js" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="Global.asax" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/views/tweet.html" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="abrie.Master" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/img/nwd9.jpg" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/js/default.js" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="sandbox/articles.aspx" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/img/nej72.jpg" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/css/styles.css" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/js/code.js" publishTime="04/25/2012 13:55:47" />
+    <file relUrl="code.aspx" publishTime="04/25/2012 14:32:19" />
+    <file relUrl="assets/js/modernizr-latest.js" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/img/loader.gif" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/views/articleAdmin.html" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="sandbox/linda.html" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="packages.config" publishTime="04/25/2012 13:13:53" />
+    <file relUrl="assets/img/favicon.ico" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/img/arrows.png" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/img/p4pb7311631.jpg" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="portfolio.aspx" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/js/shCore.js" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/views/article.html" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/img/ek.jpg" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="default.aspx" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/css/shThemeDefault.css" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="bin/Microsoft.Web.Infrastructure.xml" publishTime="12/20/2010 10:52:36" />
+    <file relUrl="assets/js/tweeter.js" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/js/jquery.tmpl.min.js" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/css/reset-min.css" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="bin/abrie.netWeb.pdb" publishTime="04/25/2012 15:19:52" />
+    <file relUrl="assets/js/master.js" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/css/shCore.css" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/img/back.png" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="WCF/DataService.svc" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/js/shBrushJScript.js" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="robots.txt" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="bin/Microsoft.Web.Infrastructure.dll" publishTime="01/05/2011 15:45:38" />
+    <file relUrl="bin/abrie.netWeb.dll" publishTime="04/25/2012 15:19:52" />
+    <file relUrl="assets/views/articleSummary.html" publishTime="04/25/2012 13:46:45" />
+    <file relUrl="sandbox/tweeter.aspx" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/errors/notfound.aspx" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/js/jquery-1.6.4.min.js" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/js/linda.js" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="bin/Microsoft.Web.Optimization.dll" publishTime="04/25/2012 13:13:52" />
+    <file relUrl="assets/img/p5pb7569968.jpg" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="assets/img/k35mP.gif" publishTime="04/19/2012 13:55:50" />
+    <file relUrl="Web.config" publishTime="04/25/2012 15:20:12" />
   </publishProfile>
   <publishProfile publishUrl="E:\Code\assembla\trunk\abrie.netWeb\deploy" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="HomeDeploy" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="False">
     <file relUrl="assets/js/jquery.beautyOfCode-min.js" publishTime="11/01/2011 17:41:28" />
+    <file relUrl="bin/abrie.netWeb.dll" publishTime="11/07/2011 19:08:58" />
     <file relUrl="assets/img/ek.jpg" publishTime="11/01/2011 17:41:26" />
     <file relUrl="Global.asax" publishTime="11/01/2011 17:41:24" />
     <file relUrl="assets/views/tweet.html" publishTime="11/01/2011 17:41:28" />
@@ -83,9 +84,8 @@
     <file relUrl="assets/errors/notfound.aspx" publishTime="11/07/2011 17:56:26" />
     <file relUrl="robots.txt" publishTime="11/01/2011 17:41:24" />
     <file relUrl="sandbox/test.aspx" publishTime="11/07/2011 17:56:26" />
-    <file relUrl="sandbox/tweeter.aspx" publishTime="11/07/2011 17:56:26" />
     <file relUrl="assets/js/jquery-1.6.4.min.js" publishTime="11/01/2011 17:41:28" />
-    <file relUrl="bin/abrie.netWeb.dll" publishTime="11/07/2011 19:08:58" />
+    <file relUrl="sandbox/tweeter.aspx" publishTime="11/07/2011 17:56:26" />
     <file relUrl="Web.config" publishTime="11/07/2011 19:09:11" />
   </publishProfile>
 </publishData>
