@@ -81,7 +81,7 @@
                         <div class="cell">
                             .NET 1.1-4.0, MS SQL 2005-2008, Visual Studio 2003-2010, HTML, CSS, Biztalk 2008,
                             Ajax, Silverlight, MVC, MS Dynamics CRM 3.0, Team Foundation Server, Visual SourceSafe,
-                            SubVersion, SQL Reporting Services, OpenGL, PostgreSQL, MySQL, Latex, Qt, Flex,
+                            SubVersion, Git, SQL Reporting Services, OpenGL, PostgreSQL, MySQL, Latex, Qt, Flex,
                             Bison
                         </div>
                     </div>
@@ -95,6 +95,14 @@
             </div>
             <div class="cell">
                 <div class="table subportfolio">
+                    <div class="row">
+                        <div class="cell">
+                            Woolworths Loyalty Web
+                        </div>
+                        <div class="cell">
+                            Updated the previous website to add some security and a proper WCF backend.
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="cell">
                             Woolworths Customer Central
