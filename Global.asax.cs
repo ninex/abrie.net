@@ -20,7 +20,7 @@ namespace abrie.netWeb
 
         protected void Application_Start(object sender, EventArgs e)
         {
-            BundleTable.Bundles.EnableDefaultBundles();
+            /*BundleTable.Bundles.EnableDefaultBundles();
 #if DEBUG
             var b = new Bundle("~/jss", typeof(PlainJsBundler));
 #else
@@ -48,7 +48,7 @@ namespace abrie.netWeb
             s = new Bundle("~/codecss", typeof(CssMinify));
             s.AddFile("~/assets/css/shCore.css");
             s.AddFile("~/assets/css/shThemeDefault.css");
-            BundleTable.Bundles.Add(s);
+            BundleTable.Bundles.Add(s);*/
 
         }
 

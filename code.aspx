@@ -5,7 +5,8 @@
     <title>abrie.net - code</title>
     <meta name="keywords" content="abrie, greeff, code, examples" />
     <meta name="description" content="Code examples of ideas I play around with" />
-    <link href="codecss" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/shCore.css" rel="stylesheet" type="text/css" />
+    <link href="/assets/css/shThemeDefault.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="bodyContent" ContentPlaceHolderID="body" runat="server">
     <h1>
@@ -34,7 +35,11 @@
     </div>
 </asp:Content>
 <asp:Content ID="footer" ContentPlaceHolderID="footer" runat="server">
-    <script src="codejss"></script>
+    <script type="text/javascript" src="/assets/js/shCore.js"></script>
+    <script type="text/javascript" src="/assets/js/shBrushJScript.js"></script>
+    <script type="text/javascript" src="/assets/js/shBrushXml.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery.tmpl.min.js"></script>
+    <script type="text/javascript" src="/assets/js/code.js"></script>
     <script>
         $(document).ready(function () {
             loadMarkup();

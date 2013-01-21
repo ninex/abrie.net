@@ -9,7 +9,8 @@
     <meta name="description" content="This is Abrie Greeff's sandbox for development ideas." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="/assets/img/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/reset-min.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
     <link rel="alternate" type="application/rss+xml" title="abrie.net code sandbox" href="http://abrie.net/WCF/DataService.svc/feed" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -26,7 +27,10 @@
         <asp:ContentPlaceHolder ID="body" runat="server">
         </asp:ContentPlaceHolder>
     </div>
-    <script src="jss"></script>
+    <script type="text/javascript" src="/assets/js/modernizr-latest.js"></script>
+    <script type="text/javascript" src="/assets/js/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="/assets/js/master.js"></script>
+    <script type="text/javascript" src="/assets/js/"></script>
     <script>
         $(document).ready(function () {
             setActiveNavigation();
